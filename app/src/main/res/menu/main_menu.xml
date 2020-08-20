@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/openCamera"
+        android:title="Camera"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:icon="@drawable/ic_photo_camera"
+        />
+
+    <item
+        android:id="@+id/openItem"
+        android:title="Open"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:icon="@drawable/ic_insert_photo_black_24dp"
+        />
+
+    <item
+        android:id="@+id/saveItem"
+        android:title="Save"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:icon="@drawable/ic_save"
+        />
+
+
+
+</menu>

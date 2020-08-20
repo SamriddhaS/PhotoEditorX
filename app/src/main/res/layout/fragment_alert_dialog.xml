@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AlertDialogFragment"
+    android:background="@drawable/btn_background"
+    android:orientation="vertical"
+    android:padding="22dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do You Really Want To Exit?"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Sure To Save Your File Before Exiting"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSaveAndExit"
+        android:background="@drawable/btn_background1"
+        android:text="Save Photo And Exit"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="22dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExitWithoutSaving"
+        android:background="@drawable/btn_background1"
+        android:text="Exit Without Saving"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+        android:background="@drawable/btn_background1"
+        android:text="Cancel"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>

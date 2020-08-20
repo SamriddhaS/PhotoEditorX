@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivFontTick"
+            android:src="@drawable/ic_check"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFontDemo"
+            android:text="Demo"
+            android:textSize="40sp"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFontName"
+            android:text="Font Name"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
