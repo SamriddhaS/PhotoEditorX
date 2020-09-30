@@ -1,4 +1,7 @@
 # PhotoEditorX
+
+#### Download App Apk: https://github.com/SamriddhaS/PhotoEditorX/blob/master/download%20apk/my%20photo%20editor.apk
+
 This is an app which can be used for editing photos.This app gives variety of options for editing your photos however you want.Some editing options  are :
 1.Edit contrust,brightness,color temperatures. 2.Add photo filters. 3.Add emoji's and frames. 4.Add texts and change styles of your text. 5.Crop,rotate,resize your image.
 6.Choose an image from your gallery or take a photo using camera to edit.
